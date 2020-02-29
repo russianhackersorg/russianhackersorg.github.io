@@ -59,6 +59,10 @@ body:after {
     z-index: 999;
     background: rgba(0, 0, 0, 0.2); }
 
+@media only screen and (max-width: 1000px) {
+  #giga { display: none; }
+}
+
 .btn {
   font-size: 16px;
   border-radius: 30px;
