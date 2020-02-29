@@ -67,7 +67,7 @@
                 <li><a href="https://russianhackers.org" class="nav-link">Хакатоны</a></li>
                 <li><a href="https://news.russianhackers.org" class="nav-link">Новости</a></li>
                 <li><a href="https://about.russianhackers.org" class="nav-link">О Нас</a></li>
-                <a href="https://alice.ya.ru/s/56f893be-323b-494f-abe2-adc16265ec3f" class="btn btn-primary">Попробовать!</a></p>
+                <a href="https://alice.ya.ru/s/56f893be-323b-494f-abe2-adc16265ec3f" class="btn btn-primary" id="giga">Попробовать!</a></p>
             </div>
               </ul>
             </nav>
@@ -284,14 +284,18 @@
           </div>
           <div class="col-md-3">
             <h2 class="footer-heading mb-4">Подпишись на дайджест</h2>
-            <form action="#" method="post" class="footer-subscribe">
+            <div class="ml-form-embed"
+              data-account="1112034:x2t8a0e8o2"
+              data-form="1809162:p8v0z7">
+            </div>
+           <!--  <form action="#" method="post" class="footer-subscribe">
               <div class="input-group mb-3">
                 <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Email" aria-label="Enter Email" aria-describedby="button-addon2">
                 <div class="input-group-append">
                   <button class="btn btn-primary text-black" type="button" id="button-addon2">Отправить</button>
                 </div>
               </div>
-            </form>
+            </form> -->
           </div>
         </div>
         <div class="row pt-5 mt-5 text-center">
@@ -325,6 +329,16 @@
 
   
   <script src="js/main.js"></script>
+
+    <script>
+    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+    var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+    f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+    var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+    _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+    var ml_account = ml('accounts', '1112034', 'x2t8a0e8o2', 'load');
+  </script>
 
   
   </body>
